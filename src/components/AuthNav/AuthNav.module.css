@@ -1,0 +1,11 @@
+.link {
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #d45f5f;
+}
+.wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}

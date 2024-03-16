@@ -1,0 +1,35 @@
+.form {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+  border: 3px solid #e9a098;
+  border-radius: 6px;
+}
+.button {
+  background-color: #ddcace;
+  border: 3px solid #e9a098;
+  border-radius: 6px;
+  color: #7c7b6f;
+  width: 120px;
+  font-size: 16px;
+  padding: 7px 5px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.button:hover,
+button:focus {
+  background-color: inherit;
+  color: inherit;
+}
+.input {
+  border: 1px solid #ddcace;
+  border-radius: 6px;
+  padding: 3px;
+}
+.error {
+  color: #ddcace;
+}
